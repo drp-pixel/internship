@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  margin: 50px;
+  background-image: url(images.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Glass container */
+.login-box {
+  width: 380px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.164);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  text-align: center;
+  color: wheat;
+}
+
+.login-box h1 {
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+/* Input fields */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-size: 14px;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-box input::placeholder {
+  color: #ddd; /* soft gray for readability */
+}
+
+.login-box input:focus {
+  background: rgba(255, 255, 255, 0.3); /* slightly brighter */
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.6); /* orange glow */
+}
+
+/* Button */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 25px;
+  background: orange;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-box button:hover {
+  background: darkorange;
+}
+
+/* Forgot password */
+.login-box a {
+  display: block;
+  margin-top: 15px;
+  color: #ddd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-box a:hover {
+  text-decoration: underline;
+}

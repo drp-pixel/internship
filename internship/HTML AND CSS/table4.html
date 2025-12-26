@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice #12345ABC</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    h1, h2 { text-align: center; }
+    .section { margin-bottom: 20px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #290b0b; padding: 8px; text-align: left; }
+    .totals td { font-weight: bold; }
+  </style>
+</head>
+<body>
+
+  <h1>Invoice #12345AB </h1>
+  <h2>18 Jul 2019</h2>
+
+  <div class="section">
+    <strong>Pay To:</strong><br>
+    The Tech Park<br>
+    123 Willow Street<br>
+    Boulevard, LA - 567892
+  </div>
+
+  <div class="section">
+    <strong>Customer:</strong><br>
+    John Lark<br>
+    Dummy Apartments<br>
+    276 Main Street<br>
+    Boulevard, LA - 567892
+  </div>
+
+  <table>
+    <thead>
+      <tr bgcolor="lightblue">
+        <th >Name/Description</th>
+        <th>Qty</th>
+        <th>MRP</th>
+        <th>Amount</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Biryani</td>
+        <td>3</td>
+        <td>400</td>
+        <td>1200</td>
+      </tr>
+      <tr>
+        <td>Chocolate Shake</td>
+        <td>3</td>
+        <td>200</td>
+        <td>600</td>
+      </tr>
+    </tbody>
+    <tfoot class="totals">
+      <tr>
+        <td bgcolor="lightblue" colspan="3">Subtotal</td>
+        <td>1800</td>
+      </tr>
+      <tr>
+        <td bgcolor="lightblue" colspan="2"> Tax</td>
+        <td> (10%) </td>
+        <td>180</td>
+      </tr>
+      <tr>
+        <td bgcolor="skyblue" colspan="3">Grand Total</td>
+        <td>Rs 1620</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+#a programm about the given number by user is positive, negetive or zero
+print("finding if number is positive, negetive or zero")
+
+# Take input from the user
+num = float(input("Enter a number: "))
+
+# Check conditions
+if num > 0:
+    print("The number is Positive.")
+elif num < 0:
+    print("The number is Negative.")
+else:
+    print("The number is Zero.")

@@ -1,0 +1,72 @@
+<title>Login Form</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("https://wallpapercave.com/wp/wp4056410.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+
+    .login-box {
+      width: 350px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 30px;
+      border-radius: 10px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .login-box h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: orange;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-box button:hover {
+      background-color: darkorange;
+    }
+
+    .forgot {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .forgot a {
+      color: lightblue;
+      text-decoration: none;
+    }
+
+    .forgot a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 400px) {
+      .login-box {
+        width: 90%;
+        padding: 20px;
+      }
+    }
+  </style>
